@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+		{% include 'base/nav.html' %}
+	<form action="." method="POST">
+		{% csrf_token %}	
+		{{ form.as_p }}
+		<button type="Submit">login</button>
+	</form>
+</body>
+</html>

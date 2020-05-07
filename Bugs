@@ -1,0 +1,5 @@
+ 1. static tag not recognized 
+ 	When i introduce the static tag the system seems to not identify the tag..
+ 	i added STATICFILES_DIR to the settings file yet still no avail 
+ 	i run ./manage.py collectstatic still no avail
+ 	i wrote {% load staticfiles % onto the necessary pages but still did not work.

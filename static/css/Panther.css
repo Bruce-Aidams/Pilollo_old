@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'WAKANDA-PANTHER';
+    src: url('../fonts/webfonts_WAKANDA-PANTHER/WAKANDA-PANTHER.ttf.woff') format('woff'),
+        url('../fonts/webfonts_WAKANDA-PANTHER/WAKANDA-PANTHER.ttf.svg#WAKANDA-PANTHER') format('svg'),
+        url('../fonts/webfonts_WAKANDA-PANTHER/WAKANDA-PANTHER.ttf.eot'),
+        url('../fonts/webfonts_WAKANDA-PANTHER/WAKANDA-PANTHER.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}

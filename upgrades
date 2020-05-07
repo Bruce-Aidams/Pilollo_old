@@ -1,0 +1,38 @@
+
+
+1. IMPROVING THE CART
+		currently when an item is added to the cart the request sends the buyer to a new page (mycart)
+		which lists down all products in the cart. I thought with the use of AJAX and some javascript 
+		we can create a modal of sort which pops up onto the page anytime a product is added to the cart.
+
+2. Integrate the frontend to the back 
+
+3. Add a "follow saller" function that allows buyers who wish to buy from a particular shop to get notifications if they 		enlist a products
+
+4. The wishlist function 
+
+5. The Profile
+
+6. The Giftcards
+
+7. Messages -> Chat program
+
+8. Shop Name Generation
+
+9. AJAX submission of forms
+
+10. Thumbnails 
+
+11. cookies
+
+12. speed load and optimization
+
+13. Search and filter 
+
+14.
+
+
+NOTE TO Designers
+	The changing card of the categories listing 
+
+	on the about page if we can have the texts change from a WAKANDAN kinda font to a a clearer one .

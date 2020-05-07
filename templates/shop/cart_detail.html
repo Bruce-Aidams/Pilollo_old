@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+		{% include 'base/nav.html' %}
+<table>
+	<tr>
+		<td>Item</td>
+		<td>qty</td>
+		<td>Unit Price</td>
+		<td>Price</td>
+	</tr>
+	
+		{% for item in cart %}
+		{% with product=item.product %}
+		<tr>
+		<td>{{ product.name }}</td>
+		</tr>
+		{% endwith %}
+		{% endfor %}
+	</table>
+	<a href="{% url 'orders:order_create' %}"><button>Proceed to Checkout</button></a>
+</body>
+</html>

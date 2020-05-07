@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h2>Pilollo.com</h2>
+	{% include 'base/nav.html' %}
+	<hr>
+	{% for catalog in catalogs %}
+		<dl>
+			<dt>{{ catalog.name }}</dt>
+	
+			{% for c in categories %}
+				{% if c.catalog == catalog %}
+					<dd><a href="{{ c.get_absolute_url }}"> {{ c.name }} <img src="{{ c.image.url }}" height="300" width="300"></a></dd>
+				
+				{% endif %}
+			{% endfor %}
+		
+	
+	{% endfor %}
+	<table border="1">
+		{% for product in products %}
+		<tr>
+			<td>{{product.name }}</td>
+			<td>{% include 'shop/add_to_cart.html' %}</td>
+
+		</tr>
+		{% endfor %}
+	</table>
+
+</body>
+</html>

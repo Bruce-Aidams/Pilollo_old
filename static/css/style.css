@@ -1,0 +1,855 @@
+body {
+  background-color: #ECF0F1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'BLACK-PANTHER';
+}
+
+.nav-img {
+  height: 70px;
+  width: 100%;
+  line-height: 2rem;
+}
+
+nav {
+  padding: 0px;
+  margin: 0px;
+  line-height: 1rem;
+  height: 70px;
+}
+
+.img-img {
+  height: auto;
+  width: auto;
+}
+
+@media screen and (max-width: 413px) {
+  .img-img {
+    height: auto;
+  }
+}
+
+.fit {
+  font-size: 11px;
+}
+
+.logimg {
+  height: 50px;
+  width: 100%;
+}
+
+.logoimg {
+  height: 92px;
+  position: relative;
+  width: auto;
+  line-height: 300px;
+  bottom: 18px;
+  right: 71px;
+}
+
+#icon-top {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 34em) {
+  #icon-top {
+    display: inline-block;
+  }
+
+  .logoimg {
+    right: 30px;
+  }
+}
+
+@media(max-width: 48em) {
+  .logoimg {
+    right: 0px;
+    visibility: visible;
+  }
+
+  #search {
+    width: 100%;
+  }
+
+}
+
+#search {
+  width: 591px;
+  position: relative;
+  bottom: 0px;
+}
+
+@media(max-width: 576px) {
+  #search {
+    width: 100%;
+  }
+}
+
+@media(max-width: 992px) {
+  #search {
+    width: 100%;
+  }
+
+  .logoimg {
+    right: 20px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .logoimg {
+    right: 25px;
+  }
+}
+
+#hero-sub {
+  display: inline-block;
+  width: 100%;
+}
+
+#last-child {
+  float: right;
+  align-content: center;
+  position: relative;
+  left: 30%;
+}
+
+.beneath {
+  height: 0 auto;
+  width: 100%;
+}
+
+#sample1 {
+  position: relative;
+  left: 100px;
+  color: #ffffff;
+  width: 100%;
+}
+
+#link-color {
+  color: #ffffff;
+}
+
+#link-color:hover {
+  color: #b2b3b4;
+}
+
+#sample2 {
+  color: #ffffff;
+  position: relative;
+  left: 300px;
+}
+
+@media(max-width: 576px) {
+  #sample1 {
+    left: 0px;
+    overflow-x: hidden;
+    flex: none;
+  }
+
+  #sample2 {
+    left: 0px;
+    overflow-x: hidden;
+  }
+
+  #text-treat {
+    font-size: 25px;
+    word-spacing: normal;
+  }
+
+  .barrow {
+    display: none;
+  }
+
+  #text-top {
+    font-size: 16px;
+  }
+
+  .postus {
+    top: 0px;
+    right: 10px;
+  }
+
+  .img-slip {
+    top: -36px;
+  }
+
+  #pic-1 {
+    display: none !important;
+  }
+
+  #pic-2 {
+    display: none !important;
+  }
+
+  #pic-3 {
+    display: none !important;
+  }
+}
+
+@media(max-width: 768px) {
+  #sample1 {
+    left: 0px;
+    overflow-x: hidden;
+  }
+
+  #sample2 {
+    left: 0px;
+    overflow-x: hidden;
+  }
+
+  .barrow {
+    display: none;
+  }
+
+  #text-treat {
+    font-size: 25px;
+    word-spacing: normal;
+  }
+
+  #text-top {
+    font-size: 16px;
+  }
+
+
+  #pic-1 {
+    display: none !important;
+  }
+
+  #pic-2 {
+    display: none !important;
+  }
+
+  #pic-3 {
+    display: none !important;
+  }
+
+  .fantom {
+    top: -30px;
+  }
+}
+
+@media(max-width: 991px) {
+  #sample1 {
+    left: 0px;
+    overflow-x: hidden;
+  }
+
+  #sample2 {
+    left: 0px;
+    overflow-x: hidden;
+  }
+
+  .fantom {
+    top: -30px;
+  }
+
+  #text-treat {
+    font-size: 25px;
+    word-spacing: normal;
+  }
+
+  #text-top {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 992px) {
+  #sample1 {
+    left: 0px;
+    overflow-x: hidden;
+  }
+
+  #sample2 {
+    left: 0px;
+    overflow-x: hidden;
+  }
+
+  #text-treat {
+    font-size: 30px;
+    word-spacing: normal;
+  }
+
+  #text-top {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 1200px) {
+  #sample1 {
+    left: 0px;
+    overflow-x: hidden;
+  }
+
+  #sample2 {
+    left: 0px;
+    overflow-x: hidden;
+  }
+}
+
+@media(max-width: 300px) {
+  #sample1 {
+    left: 0px;
+    width: 70%;
+    overflow-x: hidden;
+  }
+
+  #sample2 {
+    left: 0px;
+    overflow-x: hidden;
+  }
+
+  #search {
+    width: 100%;
+  }
+}
+
+@media(max-width: 286px) {
+  #search {
+    width: 100%;
+  }
+}
+
+#platter {
+  width: 100%;
+}
+
+#side-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.ftco-img {
+  height: 500px;
+}
+
+#text-top {
+  font-size: 75px;
+  font-family: 'Bell MT';
+  font-style: italic;
+  color: #ffffff;
+  width: 100%;
+  position: relative;
+  bottom: 16px;
+}
+
+#newsleter-link {
+  position: relative;
+  top: 30px;
+  font-weight: 600;
+}
+
+#btn-border {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid #000000;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+#btn-border2 {
+  border: 1px;
+  border-radius: none !important;
+  position: relative;
+  bottom: 35px;
+  font-weight: bold;
+  font-family: 'Bell MT';
+}
+
+#text-treat {
+  position: relative;
+  top: 0px;
+}
+
+#ftco-na {
+  background-color: #ffffff;
+}
+
+#galla-title {
+  font-weight: 600;
+}
+
+#card-indent {
+  height: 324.5px;
+}
+
+img {
+  width: 100%;
+  height: 50%;
+  align-content: center;
+}
+
+.product-bottom .icon {
+  color: #FFA400;
+  font-size: 10px;
+  overflow-x: hidden;
+}
+
+.product-bottom h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product-bottom h5 {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.overlay {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  margin-left: 0;
+  width: 70px;
+}
+
+.product-top:hover .overlay {
+  opacity: 1;
+  margin-left: 5%;
+  transition: 0.5s;
+}
+
+.overlay .icon {
+  cursor: pointer;
+  background-color: none;
+  color: #ffffff;
+  height: 35px;
+  width: 35px;
+  font-size: 15px;
+  padding: 7px;
+  margin: 5%;
+  margin-bottom: 5%;
+}
+
+.overlay .btn-secondary {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.overlay .icon:hover {
+  background-color: #fff;
+  transition: 0.5s;
+  color: red;
+}
+
+#testimony-title {
+  font-size: 14px;
+  font-family: 'Copperplate Gothic Bold';
+}
+
+h2 {
+  font-family: 'Copperplate Gothic Bold', sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#ftco-sider {
+  background-color: #F7CA18;
+  font-family: 'Copperplate Gothic Bold';
+  vertical-align: center;
+}
+
+.ftn-size {
+  width: 100%;
+  font-size: 3rem;
+}
+
+
+
+.barrow {
+  font-family: 'Copperplate Gothic Bold';
+  font-size: 2rem;
+  color: #000000;
+}
+
+.footer-pigment {
+  background-color: #510202;
+  color: #ffffff;
+}
+
+#news {
+  position: relative;
+  bottom: 0px;
+}
+
+#news2 {
+  position: relative;
+  bottom: 43px;
+}
+
+#socratuf {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.img-slip {
+  height: 59%;
+  width: 52%;
+  position: relative;
+  bottom: 77px;
+}
+
+.fantom {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  position: relative;
+  bottom: 90px;
+  width: 100%;
+}
+
+.postus {
+  position: relative;
+  left: 32px;
+  color: #D2D7D3;
+  bottom: 5px;
+}
+
+#legion {
+  position: relative;
+  bottom: 50px;
+}
+
+#texture {
+  font-weight: 900;
+  font-size: 14px;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+#base {
+  background-color: #3e0000;
+}
+
+.icon-base {
+  position: relative;
+  top: 10px;
+}
+
+#texture1 {
+  font-weight: 900;
+  font-size: 12px;
+  text-transform: none;
+  letter-spacing: normal;
+  font-family: 'Arial';
+}
+
+
+
+.popop {
+  color: #ffffff;
+  position: relative;
+  top: 10px;
+  font-size: 12px;
+}
+
+.borders {
+  border-right: 1px solid #ffffff;
+}
+
+#slider-x {
+  overflow-x: hidden;
+}
+
+.pocker {
+  vertical-align: center;
+}
+
+
+/* About Page */
+
+#ftco-abt {
+  width: 100%;
+}
+
+#abt-us {
+  font-family: 'Arial Rounded MT Bold';
+  width: 100%;
+  height: 100%;
+}
+
+#pic-1 {
+  height: 200px;
+  width: 70%;
+  position: relative;
+  top: 70px;
+}
+
+.txt-8 {
+  font-family: 'Arial';
+  font-size: 20px;
+  color: #000000;
+  width: 100%;
+}
+
+#valley {
+  background-color: #510202;
+}
+
+.solice {
+  width: 80%;
+}
+
+.txt-1 {
+  font-size: 20px;
+  font-family: 'Copperplate Gothic Bold';
+}
+
+#abt-btn {
+  position: relative;
+  background-color: transparent !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  border: 1px solid red !important;
+  font-family: 'Arial Rounded MT Bold';
+  width: 70%;
+}
+
+
+@media(min-width: 576px) {
+  #poe {
+    position: relative;
+    height: 60%;
+    width: 50%;
+    left: 270px;
+    top: 110px;
+    overflow-x: hidden;
+  }
+
+  #poie {
+    position: relative;
+    height: 60%;
+    width: 50%;
+    left: 270px;
+    top: 313px;
+    overflow-x: hidden;
+  }
+}
+
+@media(max-width: 576px) {
+  #poe {
+    display: none !important;
+  }
+
+  .txt-1 {
+    text-align: center;
+  }
+
+  #lead-sm {
+    width: 100%;
+  }
+
+  #poie {
+    display: none !important;
+  }
+}
+
+@media(max-width: 768px) {
+  #poe {
+    display: none !important;
+  }
+
+  #poie {
+    display: none !important;
+  }
+
+  .txt-1 {
+    text-align: center;
+  }
+
+  #lead-sm {
+    width: 100%;
+  }
+
+}
+
+
+@media(max-width: 991px) {
+  #poe {
+    left: 164px !important;
+  }
+
+  #poie {
+    left: 164px !important;
+  }
+
+  .txt-1 {
+    text-align: center;
+  }
+
+  #lead-sm {
+    width: 100%;
+  }
+
+  #ftco-libslid {
+    background-color: red !important;
+  }
+
+  .solice {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media(max-width: 371px) {
+  section {
+    overflow-x: hidden;
+  }
+
+  .postus {
+    top: 30px;
+  }
+}
+
+#sokoto {
+  width: 100%;
+}
+
+#ftco-slider {
+  width: 100%;
+}
+
+.slider1 {
+  position: relative;
+  top: 20px;
+  height: 458px;
+  overflow-x: hidden;
+}
+
+/* Contact Page */
+
+#ftco-contact {
+  background-color: #3e0000;
+  position: relative;
+  top: 5px;
+
+}
+
+.txt-3 {
+  font-size: 40px;
+  font-family: 'Copperplate Gothic Bold';
+}
+
+.header-contact {}
+
+.txt-4 {
+  font-size: 20px;
+  font-family: 'Arial Rounded MT Bold';
+}
+
+.txt-2 {
+  font-size: 13px;
+  font-family: 'Arial Rounded MT Bold';
+}
+
+#contact-form {
+  position: relative;
+  width: 70%;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+input[type=email],
+input[type=tel],
+select {
+  width: 100%;
+  padding: 12px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #fff;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #3e0000;
+  color: #fff;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: #3e0000;
+  color: #fff;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact-btn {
+  position: relative;
+  background-color: transparent !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  border: 1px solid #8F1D21 !important;
+  font-family: 'Arial Rounded MT Bold';
+  width: 50%;
+}
+
+#head-border {
+  border-bottom: 2px solid #fff;
+  width: 70%;
+}
+
+.txt-5 {
+  font-size: 12px;
+  font-family: 'Arial Rounded MT Bold';
+}
+
+#likso {
+  position: relative;
+  bottom: 10px;
+}
+
+.icos {
+  position: relative;
+  top: 20px;
+}
+
+.txt-7 {
+  font-size: 23px;
+  font-family: 'Arial Rounded MT Bold';
+}
+
+@media(max-width: 576px) {
+  #contact-form {
+    width: 100%;
+  }
+}
+
+/* End */
+
+.txt-sub {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 60px;
+  width: 70%;
+}
+
+.db-con {
+  font-size: 20px;
+}
+
+.txt-tx {
+  position: relative;
+}
